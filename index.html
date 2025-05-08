@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITPLATFORM — Подкаст про Технології</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body class="gray-theme">
+  <header class="main-header shadow">
+    <div class="container header-container">
+      <h1 class="logo gradient-text">🎙️ ITPLATFORM</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#episodes">Епізоди</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2 class="hero-title animate-pop">Подкаст про майбутнє технологій</h2>
+      <p class="hero-subtitle fade-in">Щотижневі епізоди з експертами ІТ, стартапами та інноваціями</p>
+      <a href="#episodes" class="hero-button pulse">📂 Переглянути теми</a>
+    </div>
+    <div class="wave"></div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="container grid">
+      <div class="about-text">
+        <b>Хто ми?</b>
+        <p><strong>ITPLATFORM</strong> — це платформа, де новітні технології стають доступними для кожного. Ми обговорюємо реальні кейси, інтерв’юємо провідних спеціалістів і даємо поради для молодих фахівців.</p>
+        <ul>
+          <li>🎤 Живі розмови з лідерами галузі</li>
+          <li>📡 Актуальні новини зі світу технологій</li>
+          <li>💡 Ідеї, які змінюють світ</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <img src="studio.png" alt="Подкаст студія" class="rounded">
+      </div>
+    </div>
+  </section>
+
+  <section class="episodes-section gradient-bg" id="episodes">
+    <div class="container">
+      <h3 class="section-title">Останні Епізоди</h3>
+      <div class="episodes-grid">
+        <div class="episode-card glass">
+          <p>Епізод 1</p>
+          <b>ШІ та Етика</b>
+          <p>Обговорення викликів і можливостей у світі AI з професором Іваном Петренком.</p>
+          <button class="info-button">🔍 Детальніше</button>
+        </div>
+        <div class="episode-card glass">
+          <p>Епізод 2</p>
+          <b>Тренди фронтенду 2025</b>
+          <p>React 19, WebGPU, Server Components — що варто знати прямо зараз?</p>
+          <button class="info-button">🔍 Детальніше</button>
+        </div>
+        <div class="episode-card glass">
+          <p>Епізод 3</p>
+          <b>Кіберзахист бізнесу</b>
+          <p>Як захистити малий бізнес від хакерів і зливу даних. Експертна думка.</p>
+          <button class="info-button">🔍 Детальніше</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback-section" id="contact">
+    <div class="container">
+      <h3 class="section-title">Зв’яжіться з нами</h3>
+      <p>Маєте питання, пропозицію або хочете стати гостем подкасту? Напишіть нам:</p>
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Ваше ім’я" required>
+          <input type="email" name="email" placeholder="Ваш email" required>
+        </div>
+        <textarea name="message" placeholder="Ваше повідомлення..." rows="5"></textarea>
+        <button type="submit">📨 Надіслати</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer dark">
+    <div class="container">
+      <p>© 2025 ITPLATFORM — Усі права захищено</p>
+      <div class="social-icons">
+        <a href="#"><img src="facebook-icon.svg" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.svg" alt="Twitter"></a>
+        <a href="#"><img src="instagram-icon.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
